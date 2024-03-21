@@ -1,0 +1,9 @@
+//Atribut language/bahasa
+//Anda harus selalu menyertakan atribut lang di dalam tag <html>, untuk menyatakan bahasa halaman Web. Hal ini dimaksudkan untuk membantu mesin pencari dan browser.
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
