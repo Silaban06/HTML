@@ -1,0 +1,99 @@
+// HTML Paragraphs
+// Elemen HTML <p> mendefinisikan sebuah paragraf.
+// Paragraf selalu dimulai pada baris baru, dan browser secara otomatis menambahkan ruang putih (margin) sebelum dan sesudah paragraf.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+// HTML Display
+// Anda tidak dapat memastikan bagaimana HTML akan ditampilkan. Layar besar atau kecil, dan jendela yang diubah ukurannya akan menghasilkan hasil yang berbeda. Dengan HTML, Anda tidak dapat mengubah tampilan dengan menambahkan spasi ekstra atau baris ekstra dalam kode HTML Anda. Browser akan secara otomatis menghapus spasi dan baris ekstra ketika halaman ditampilkan.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains      a lot of spaces
+in the source     code,
+but the    browser 
+ignores it.
+</p>
+
+<p>
+The number of lines in a paragraph depends on the size of the browser window. If you resize the browser window, the number of lines in this paragraph will change.
+</p>
+
+</body>
+</html>
+
+// HTML Horizontal Rules
+// Tag <hr> mendefinisikan jeda tematik di halaman HTML, dan paling sering ditampilkan sebagai aturan horizontal. Elemen <hr> digunakan untuk memisahkan konten (atau mendefinisikan perubahan) dalam halaman HTML.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+
+</body>
+</html>
+
+// HTML Line Breaks
+// Elemen <br> HTML mendefinisikan jeda baris. Gunakan <br> jika Anda menginginkan jeda baris (baris baru) tanpa memulai paragraf baru.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+</body>
+</html>
+
+// HTML <pre>
+// Elemen HTML <pre> mendefinisikan teks yang telah diformat sebelumnya. Teks di dalam elemen <pre> ditampilkan dalam font dengan lebar tetap (biasanya Courier), dan mempertahankan spasi dan jeda baris.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The pre tag preserves both spaces and line breaks:</p>
+
+<pre>
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+</pre>
+
+</body>
+</html>
