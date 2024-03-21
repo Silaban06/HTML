@@ -1,4 +1,5 @@
 //Atribut lebar dan tinggi
+//Tag <img> juga harus berisi atribut lebar dan tinggi, yang menentukan lebar dan tinggi gambar (dalam piksel).
 
 <!DOCTYPE html>
 <html>
