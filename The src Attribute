@@ -1,4 +1,5 @@
 //Atribut src
+//Tag <img> digunakan untuk menyematkan gambar dalam halaman HTML. Atribut src menentukan jalur ke gambar yang akan ditampilkan.
 
 <!DOCTYPE html>
 <html>
